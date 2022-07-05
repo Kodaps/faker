@@ -1,0 +1,21 @@
+{
+  "name": "@kodaps/faker-module",
+  "version": "0.0.3",
+  "description": "Fake data for tests / demo purposes",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "author": "david@kodaps.fr",
+  "license": "MIT",
+  "private": false,
+  "files": [
+    "lib/**/*"
+  ],
+  "devDependencies": {
+    "release-it": "^15.1.1",
+    "typescript": "^4.5.4"
+  },
+  "scripts": {
+    "release": "release-it"
+  },
+  "release-it": {}
+}

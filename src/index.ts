@@ -1,5 +1,4 @@
-import { faker } from "./faker";
-import {swapi, SwapiCharacter} from "./swapi";
-
-
-export {faker, swapi, SwapiCharacter};
+import faker from './faker';
+import { swapi, SwapiCharacter } from './swapi';
+console.log("hello");
+export { faker, swapi, SwapiCharacter };

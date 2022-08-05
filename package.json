@@ -1,6 +1,6 @@
 {
   "name": "@kodaps/faker-module",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Fake data for tests / demo purposes",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",

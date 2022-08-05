@@ -1,6 +1,4 @@
-// eslint-disable-next-line import/no-extraneous-dependencies
 import 'jest';
-// eslint-disable-next-line import/no-unresolved
 import { swapi } from '../src/index';
 
 describe('Basic content', () => {

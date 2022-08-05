@@ -14,4 +14,4 @@ jobs:
       - name: Reset Yarn lock
         run: git checkout -f ./yarn.lock
       - name: Run release
-        run: npm release --ci
+        run: npm run release --ci

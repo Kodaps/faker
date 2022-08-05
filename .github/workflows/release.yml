@@ -13,5 +13,5 @@ jobs:
         run: npm config set //registry.npmjs.org/:_authToken $NPM_TOKEN
       - name: Reset Yarn lock
         run: git checkout -f ./yarn.lock
-      - name: release-it
-        uses: TheRealWaldo/release-it@v0.7.2
+      - name: Run release
+        run: npm release --ci

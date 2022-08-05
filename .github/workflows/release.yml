@@ -11,5 +11,7 @@ jobs:
         run: npm i
       - name: Initialise the NPM config
         run: npm config set //registry.npmjs.org/:_authToken $NPM_TOKEN
+      - name: Log git status
+        run: git status
       - name: release-it
         uses: TheRealWaldo/release-it@v0.7.2

@@ -9,10 +9,10 @@ jobs:
         uses: actions/checkout@v2
       - name: Install the dependancies
         run: npm i
-      #- name: Initialise the NPM config
-      #  run: npm config set //registry.npmjs.org/:_authToken $NPM_TOKEN
-      #  env:
-      #    NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - name: Initialise the NPM config
+        run: npm config set //registry.npmjs.org/:_authToken $NPM_TOKEN
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       - name: Reset Yarn lock
         run: git checkout -f ./yarn.lock
       - name: Run release

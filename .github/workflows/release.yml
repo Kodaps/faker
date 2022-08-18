@@ -15,12 +15,8 @@ jobs:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       - name: Initialize Git user
         run: |
-            git config --global user.email "david@kodaps.fr"
+            git config --global user.email "david@kodaps.com"
             git config --global user.name "Release Workflow"
-      # name: Reset Yarn lock
-      #  run: |
-      #    git checkout -f yarn.lock
-      #    git checkout -f package-lock.json
       - name: Log git status
         run: git status
 
